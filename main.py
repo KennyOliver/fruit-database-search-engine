@@ -10,7 +10,7 @@ def file_search(to_search):
   print("=" * 20)
   
   file.close()
-#=====
+#====================
 def get_all():
   file = open("fruits.txt",'r')
   
@@ -19,8 +19,10 @@ def get_all():
   for record in file:
     print(record)
   
+  print("=" * 20)
+  
   file.close()
-#=====
+#====================
 def letter_search(letter):
   file = open("stuff.txt",'r')
   
@@ -30,11 +32,13 @@ def letter_search(letter):
     if record.startswith(letter):
       print(record)
   
+  print("=" * 20)
+  
   file.close()
 
 
 # MAIN PROGRAM
-print("Fruit Search")
+print("\nFruit Search")
 print("\t[*] Retrieve all\n","\t[%] Letter category\n","\t[!] Normal search")
 option = input("Enter option symbol\n--> ")
 while option not in ['*','%','!']:
