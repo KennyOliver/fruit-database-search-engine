@@ -4,5 +4,5 @@
 
 [![](https://repl.it/badge/github/KennyOliver/Fruit-Database-Search-Engine)](https://repl.it/@KennyOliver/Fruit-Database-Search-Engine)
 
-<— Description —>
+:pineapple: Search a txt database, holding names of fruits, in Python
 Kenny Oliver ©2021
