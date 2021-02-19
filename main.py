@@ -25,17 +25,20 @@ def letter_search(letter):
   file.close()
 #====================
 # MAIN PROGRAM
-print("\nFruit Search")
-print("\t[*] Retrieve all\n","\t[%] Letter category\n","\t[!] Normal search")
+print("\n!Fruit Database Search Engine!")
+print("\t[!] Normal search\n","\t[%] Letter category\n","\t[*] Retrieve all")
 option = input("Enter option symbol\n--> ")
 while option not in ['*','%','!']:
   option = input("Enter option symbol\n--> ")
 
 if option == '*':
+  print("\n")
   get_all()
 elif option == '%':
   chosen_letter = input("Enter letter\n--> ").upper()
+  print("\n")
   letter_search(chosen_letter)
 else:
   query = input("Enter query\n--> ").lower()
+  print("\n")
   file_search(query)
