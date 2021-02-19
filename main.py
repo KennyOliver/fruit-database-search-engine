@@ -2,7 +2,7 @@ def file_search(to_search):
   file = open("fruits.txt",'r')
   print("<-- RESULTS -->")
   for record in file:
-    if to_search in record:
+    if to_search in record.lower():
       print(record)
   print("=" * 20)
   file.close()
@@ -37,5 +37,5 @@ elif option == '%':
   chosen_letter = input("Enter letter\n--> ").upper()
   letter_search(chosen_letter)
 else:
-  query = input("Enter query\n--> ").title()
+  query = input("Enter query\n--> ").lower()
   file_search(query)
