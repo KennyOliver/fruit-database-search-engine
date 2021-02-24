@@ -1,10 +1,10 @@
-# fruit-database-search-engine
+# fruit-database-search-engine :pineapple:
 
-![image](https://www.codefactor.io/repository/github/KennyOliver/fruit-database-search-engine/badge?style=for-the-badge)
+![image](https://www.codefactor.io/repository/github/KennyOliver/fruit-db-search-engine/badge?style=for-the-badge)
 
-[![](https://repl.it/badge/github/KennyOliver/Fruit-Database-Search-Engine)](https://repl.it/@KennyOliver/Fruit-Database-Search-Engine)
+[![](https://repl.it/badge/github/KennyOliver/fruit-db-search-engine)](https://repl.it/@KennyOliver/fruit-db-search-engine)
 
-:pineapple: Search a .txt database, holding names of fruits, in Python.
+Search a .txt database, holding names of fruits, in Python.
 ---
 ```python
 import csv #NOT USED!
