@@ -1,6 +1,7 @@
-# fruit-database-search-engine :pineapple:
+# fruit-db-search-engine :pineapple:
 
 ![image](https://www.codefactor.io/repository/github/KennyOliver/fruit-db-search-engine/badge?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/KennyOliver/fruit-db-search-engine?style=for-the-badge)
 
 [![](https://repl.it/badge/github/KennyOliver/fruit-db-search-engine)](https://repl.it/@KennyOliver/fruit-db-search-engine)
 
